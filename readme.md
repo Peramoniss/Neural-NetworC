@@ -1,5 +1,5 @@
 # Neural NetworC
-Neural NetworC is a MLP (Multilayer Perceptron) library implementation for C programming language. Neural NetworC contains two main modules: the MLP module, encharged of neural network operations, and the Bamboo module, which handles some data transformation for the network. New modules with different neural network architectures may arrive as my madness continues to deepen. Currently, the library is in alpha version, so bugs may arise and some features might not be generic enough. Open issues with suggestions or pull a request to collaborate.
+Neural NetworC is a Multilayer Perceptron (MLP) library implementation for C programming language. Neural NetworC contains two main modules: the MLP module, encharged of neural network operations, and the Bamboo module, which handles some data transformation for the network. New modules with different neural network architectures may arrive as my madness continues to deepen. Currently, the library is in alpha version, so bugs may arise and some features might not be generic enough. Open issues with suggestions or pull a request to collaborate.
 
 ## Current Limitations:
 1. The dataset must contain only numeric data (integer and float/double). It will handle string data as 0, and therefore not cause errors, but will not behave properly.
